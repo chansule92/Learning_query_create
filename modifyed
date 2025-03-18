@@ -1,0 +1,85 @@
+def create_random_query():
+    filter_cnt=random.randrange(2,4)
+    table_add=0
+    filter_add=[]
+    query_desc=''
+    for i in range(0,filter_cnt):
+        how_filter=random.randrange(0,39)
+        column=use_keyword_df.loc[how_filter]['column']
+        desc=use_keyword_df.loc[how_filter]['desc']
+        if use_keyword_df.loc[how_filter]['type'] == 'date':
+            how_op=random.randrange(3,7)
+        elif use_keyword_df.loc[how_filter]['type'] == 'yn':
+            how_op=0
+        elif use_keyword_df.loc[how_filter]['type'] == 'char':
+            if len(eval(use_keyword_df['index'].loc[how_filter].replace(',',"','").replace('[',"['").replace(']',"']"))) <= 2:
+                how_op=0
+                index_list=eval(use_keyword_df['index'].loc[how_filter].replace(',',"','").replace('[',"['").replace(']',"']"))
+            else:
+                how_op=random.randrange(0,2)
+        elif use_keyword_df.loc[how_filter]['type'] == 'int':
+            how_op=random.randrange(3,7)
+            index_list=[random.randrange(eval(use_keyword_df['index'].loc[14])[0],eval(use_keyword_df['index'].loc[14])[1])]
+        else:
+            how_op=random.randrange(0,2)
+            index_list=eval(use_keyword_df['index'].loc[how_filter].replace(',',"','").replace('[',"['").replace(']',"']"))
+        op = operation[how_op]
+        
+        
+        
+        if op == '=' or op == '<>':
+            if use_keyword_df.loc[how_filter]['type'] == 'yn':
+                if random.randrange(0,1)==0:
+                    fil_list='1'
+                else:
+                    fil_list='0'
+            else:
+                fil_list=index_list[random.randrange(0,len(index_list))]
+        elif op == 'in':
+            in_cnt=random.randrange(1,4)
+            fil_list=[]
+            for j in range(0,in_cnt):
+                fil_list.append(index_list[random.randrange(0,len(index_list))])
+        elif use_keyword_df.loc[how_filter]['index'] == 'date':
+            random_dt = random_date(datetime(2024, 1, 1), datetime(2024, 12, 31))
+            formatted_date = random_dt.strftime('%Y%m%d')
+            fil_list = formatted_date
+        else:
+            fil_list=random.randrange(index_list[0],index_list[1])
+            
+            
+        if type(fil_list) == 'list':
+            fil_list=list(set(fil_list))
+        filter_add.append([column,op,fil_list])
+
+        query_desc = query_desc + desc + '이(가) ' + str(fil_list)
+        if op == '=':
+            query_desc = query_desc + ' 이고 '
+        if op == 'in':
+            query_desc = query_desc + ' 이고 '
+        if op == '>=':
+            query_desc = query_desc + ' 보다 크거나 같고 '
+        if op == '<=':
+            query_desc = query_desc + ' 보다 작거나 같고 '
+        if op == '>' :
+            query_desc = query_desc + ' 보다 크고 '
+        if op == '<':
+            query_desc = query_desc + ' 보다 작고 '
+        if op == '<>':
+            query_desc = query_desc + ' 같지않고 '
+
+        if how_filter < 4:
+            table_add=1
+    if table_add == 1:
+        create_query="""SELECT distinct A.cust_no FROM cdpe.l1cdp_caresol_cntc_m A LEFT OUTER JOIN cdpe.cdpe_customer_master B ON A.cust_no = B.cust_no WHERE A.cust_no IS NOT NULL"""
+    else:
+        create_query="""SELECT distinct cust_no FROM cdpe.l1cdp_caresol_cntc_m WHERE cust_no IS NOT NULL"""
+    for k in filter_add:
+        create_query = create_query + " AND " + k[0] + ' ' + k[1] + ' '
+        if (k[1] == '=' or k[1] == '<>') & (type(k[2])!='int'):
+            create_query = create_query + "'" + k[2] + "'"
+        else :
+            create_query = create_query + str(k[2]).replace('[','(').replace(']',')')
+    query_desc = query_desc[:-3]
+    query_desc = query_desc + '인 고객을 추출해주세요'
+    return [create_query,query_desc]
