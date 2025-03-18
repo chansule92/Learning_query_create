@@ -1,10 +1,10 @@
 table,column,desc,type,index
-cdpe_customer_master,gendr_cd,¼ºº°,char,"[F,M]"
+cdpe_customer_master,gendr_cd,ì„±ë³„,char,"[F,M]"
 cdpe_customer_master,age,,,
 cdpe_customer_master,bday,,,
 cdpe_customer_master,wedd_yn,,,
 cdpe_customer_master,rst_ctdo_cd,,char,"[11,26,27,28,29,30,31,36,41,42,43,44,45,46,47,48,50,51,52]"
-cdpe_customer_master,rst_ctdo_nm,Áö¿ª,char,"[°­¿ø,°æ±â,°æ³²,°æºÏ,±¤ÁÖ,´ë±¸,´ëÀü,ºÎ»ê,¼­¿ï,¼¼Á¾,¿ï»ê,ÀÎÃµ,Àü³²,ÀüºÏ,Á¦ÁÖ,Ãæ³²,ÃæºÏ]"
+cdpe_customer_master,rst_ctdo_nm,ì§€ì—­,char,"[ê°•ì›,ê²½ê¸°,ê²½ë‚¨,ê²½ë¶,ê´‘ì£¼,ëŒ€êµ¬,ëŒ€ì „,ë¶€ì‚°,ì„œìš¸,ì„¸ì¢…,ìš¸ì‚°,ì¸ì²œ,ì „ë‚¨,ì „ë¶,ì œì£¼,ì¶©ë‚¨,ì¶©ë¶]"
 cdpe_customer_master,rst_ccw_cd,,,
 cdpe_customer_master,rst_ccw_nm,,,
 cdpe_customer_master,rst_adng_cd,,,
@@ -16,11 +16,11 @@ cdpe_customer_master,rst_gnrh_prc,,,
 cdpe_customer_master,rst_house_price,,,
 cdpe_customer_master,rst_apths_perm_rent_yn,,,
 cdpe_customer_master,mbsp_entr_yn,,,
-cdpe_customer_master,lge_mbr_entr_yn,LGÀüÀÚÈ¸¿ø°¡ÀÔ¿©ºÎ,,
+cdpe_customer_master,lge_mbr_entr_yn,LGì „ìíšŒì›ê°€ì…ì—¬ë¶€,,
 cdpe_customer_master,thinq_entr_yn,,,
 cdpe_customer_master,mbsp_cust_grd_cd,,char,"[AS00,AS01,AS02,AS03,AS04,AS05]"
-cdpe_customer_master,mbsp_cust_grd_nm,¸â¹ö½Êµî±Ş,char,"[°ñµå,´ÙÀÌ¾Æ¸óµå,´ÙÀÌ¾Æ¸óµåºí·¢,¹Ì±¸¸Å,½Ç¹ö,ÇÃ·¡Æ¼³Ñ]"
-cdpe_customer_master,rmnd_mbpt,ÀÜ¿©¸â¹ö½ÊÆ÷ÀÎÆ®,int,
+cdpe_customer_master,mbsp_cust_grd_nm,ë©¤ë²„ì‹­ë“±ê¸‰,char,"[ê³¨ë“œ,ë‹¤ì´ì•„ëª¬ë“œ,ë‹¤ì´ì•„ëª¬ë“œë¸”ë™,ë¯¸êµ¬ë§¤,ì‹¤ë²„,í”Œë˜í‹°ë„˜]"
+cdpe_customer_master,rmnd_mbpt,ì”ì—¬ë©¤ë²„ì‹­í¬ì¸íŠ¸,int,
 cdpe_customer_master,xtnc_scdl_mbpt_a1m,,,
 cdpe_customer_master,xtnc_scdl_mbpt_a3m,,,
 cdpe_customer_master,promt_mgmt_shop_cd,,,
@@ -36,41 +36,41 @@ cdpe_customer_master,pi_dishwashers,,,
 cdpe_customer_master,pi_air_conditioners,,,
 cdpe_customer_master,pi_dryers,,,
 cdpe_customer_master,pi_vacuum_cleaners,,,
-l1cdp_buy_dd_l,base_dt,±âÁØÀÏÀÚ,,
+l1cdp_buy_dd_l,base_dt,ê¸°ì¤€ì¼ì,,
 l1cdp_buy_dd_l,ordr_sys_cd,,,
 l1cdp_buy_dd_l,ordr_sys_nm,,,
-l1cdp_buy_dd_l,ordr_no,ÁÖ¹®¹øÈ£,,
-l1cdp_buy_dd_l,ordr_lin_no,ÁÖ¹®¶óÀÎ¹øÈ£,,
+l1cdp_buy_dd_l,ordr_no,ì£¼ë¬¸ë²ˆí˜¸,,
+l1cdp_buy_dd_l,ordr_lin_no,ì£¼ë¬¸ë¼ì¸ë²ˆí˜¸,,
 l1cdp_buy_dd_l,prdc_lvl1_cd,,,
 l1cdp_buy_dd_l,prdc_lvl1_nm,,,
 l1cdp_buy_dd_l,prdc_lvl2_cd,,,
 l1cdp_buy_dd_l,prdc_lvl2_nm,,,
-l1cdp_buy_dd_l,prdc_lvl3_cd,Á¦Ç°3·¹º§ÄÚµå,,
-l1cdp_buy_dd_l,prdc_lvl3_nm,Á¦Ç°3·¹º§¸í,,
+l1cdp_buy_dd_l,prdc_lvl3_cd,ì œí’ˆ3ë ˆë²¨ì½”ë“œ,,
+l1cdp_buy_dd_l,prdc_lvl3_nm,ì œí’ˆ3ë ˆë²¨ëª…,,
 l1cdp_buy_dd_l,prdc_lvl4_cd,,,
 l1cdp_buy_dd_l,prdc_lvl4_nm,,,
 l1cdp_buy_dd_l,trget_prdc_cd,,,
 l1cdp_buy_dd_l,trget_prdc_nm,,,
 l1cdp_buy_dd_l,body_buy_qt,,,
-l1cdp_buy_dd_l,body_buy_amt,±¸¸Å±İ¾×,,
-l1cdp_buy_dd_l,ordr_dt,ÁÖ¹®ÀÏÀÚ,,
+l1cdp_buy_dd_l,body_buy_amt,êµ¬ë§¤ê¸ˆì•¡,,
+l1cdp_buy_dd_l,ordr_dt,ì£¼ë¬¸ì¼ì,,
 l1cdp_buy_dd_l,mrrexpns_yn,,,
 l1cdp_buy_dd_l,move_yn,,,
 l1cdp_buy_dd_l,brdw_yn,,,
 l1cdp_buy_dd_l,buy_rsn_nm,,,
-l1cdp_buy_dd_l,shop_cd,¸ÅÀåÄÚµå,,
-l1cdp_buy_dd_l,shop_nm,¸ÅÀå¸í,,
-l1cdp_buy_dd_l,lgebst_buy_chnl_cd,BEST±¸¸ÅÃ¤³ÎÄÚµå,,
-l1cdp_buy_dd_l,lgebst_buy_chnl_nm,BEST±¸¸ÅÃ¤³Î¸í,,
-l1cdp_buy_dd_l,buy_chnl_cd,±¸¸ÅÃ¤³ÎÄÚµå,,
-l1cdp_buy_dd_l,buy_chnl_nm,±¸¸ÅÃ¤³Î¸í,,
+l1cdp_buy_dd_l,shop_cd,ë§¤ì¥ì½”ë“œ,,
+l1cdp_buy_dd_l,shop_nm,ë§¤ì¥ëª…,,
+l1cdp_buy_dd_l,lgebst_buy_chnl_cd,BESTêµ¬ë§¤ì±„ë„ì½”ë“œ,,
+l1cdp_buy_dd_l,lgebst_buy_chnl_nm,BESTêµ¬ë§¤ì±„ë„ëª…,,
+l1cdp_buy_dd_l,buy_chnl_cd,êµ¬ë§¤ì±„ë„ì½”ë“œ,,
+l1cdp_buy_dd_l,buy_chnl_nm,êµ¬ë§¤ì±„ë„ëª…,,
 l1cdp_buy_dd_l,onln_buy_yn,,,
 l1cdp_buy_dd_l,obs_buy_yn,,,
 l1cdp_buy_dd_l,sale_path1_cd,,,
 l1cdp_buy_dd_l,sale_path1_nm,,,
 l1cdp_buy_dd_l,sale_path2_cd,,,
 l1cdp_buy_dd_l,sale_path2_nm,,,
-l1cdp_buy_dd_l,qt_incl_yn,¼ö·®Æ÷ÇÔ¿©ºÎ,,
+l1cdp_buy_dd_l,qt_incl_yn,ìˆ˜ëŸ‰í¬í•¨ì—¬ë¶€,,
 l1cdp_buy_dd_l,signature_mdl_yn,,,
 l1cdp_buy_dd_l,pdfm_dv_val,,,
 l1cdp_buy_dd_l,objt_dv_val,,,
@@ -80,47 +80,47 @@ l1cdp_buy_dd_l,up_hma_dv_val,,,
 l1cdp_buy_dd_l,mnb_dv_val,,,
 l1cdp_buy_dd_l,thinq_pdfm_dv_val,,,
 l1cdp_buy_dd_l,chnl_div_val,,,
-l1cdp_caresol_cntc_m,cntc_lin_no,°è¾à¶óÀÎ¹øÈ£,,
-l1cdp_caresol_cntc_m,src_chnl_cd,¿øÃµÃ¤³ÎÄÚµå,char,[CSC]
-l1cdp_caresol_cntc_m,src_chnl_nm,¿øÃµÃ¤³Î¸í,char,[CSMS (°è¾à)°í°´]
-l1cdp_caresol_cntc_m,cntc_strt_dt,°è¾à½ÃÀÛÀÏÀÚ,date,date
-l1cdp_caresol_cntc_m,cntc_end_dt,°è¾àÁ¾·áÀÏÀÚ,date,date
-l1cdp_caresol_cntc_m,cntc_stts_cd,°è¾à»óÅÂÄÚµå,char,"[C,D,E,M,S,T,W]"
-l1cdp_caresol_cntc_m,cntc_stts_nm,°è¾à»óÅÂ¸í,char,"[°èÁ¤Á¤Áö,¸¸±â¿Ï·á,¸¸±âÁ¢¼ö,º¸·ù,Á¤»ó,ÇØÁö¿Ï·á,ÇØÁöÁ¢¼ö]"
-l1cdp_caresol_cntc_m,cntc_stts_chg_dt,°è¾à»óÅÂº¯°æÀÏÀÚ,date,date
-l1cdp_caresol_cntc_m,expy_yn,ÇØÁö¿©ºÎ,yn,yn
-l1cdp_caresol_cntc_m,expy_dt,ÇØÁöÀÏÀÚ,date,date
-l1cdp_caresol_cntc_m,cntc_stop_dt,°è¾àÁ¤ÁöÀÏÀÚ,date,date
-l1cdp_caresol_cntc_m,cntc_stop_term_acum_days,°è¾àÁ¤Áö±â°£´©ÀûÀÏ¼ö,int,"[-1127,4293]"
-l1cdp_caresol_cntc_m,cntc_stop_term_acum_mmct,°è¾àÁ¤Áö±â°£´©Àû°³¿ù¼ö,int,"[-37,141]"
-l1cdp_caresol_cntc_m,rntl_sale_chnl_cd,·»Å»ÆÇ¸ÅÃ¤³ÎÄÚµå,char,"[1,10,11,12,13,14,16,17,18,19,2,20,3,4,5,6,7,8,9,99]"
-l1cdp_caresol_cntc_m,rntl_sale_chnl_nm,·»Å»ÆÇ¸ÅÃ¤³Î¸í,char,"[B2B,OBS(B2B),OBS(LGÀüÀÚÀÓÁ÷¿ø),OBS(°è¿­»çÀÓÁ÷¿ø),OBS(´ëÇ¥»çÀÌÆ®),±âÅ¸,¿Â¶óÀÎ°¡Àü,¿Â¶óÀÎÄÉ¾î¼Ö·ç¼ÇÀü¹®Á¡,ÀÌ¸¶Æ®,ÀÚ»çº¹Áö¸ô,Àü·«À¯Åë,Àü¹®Á¡(J),ÀüÀÚ·£µå,ÄÚ½ºÆ®ÄÚ,ÇÏÀÌ¸¶Æ®,ÇÏÀÌÄÉ¾î¼Ö·ç¼Ç(B2B),ÇÏÀÌÄÉ¾î¼Ö·ç¼Ç(B2C),ÇÏÀÌÇÁ¶óÀÚ(H),È¨¼îÇÎ,È¨ÇÃ·¯½º]"
-l1cdp_caresol_cntc_m,lge_shipto_cd,LGÀüÀÚSHIP-TOÄÚµå,,
-l1cdp_caresol_cntc_m,lge_shipto_nm,LGÀüÀÚSHIP-TO¸í,,
-l1cdp_caresol_cntc_m,cntc_kd_cd,°è¾àÀ¯ÇüÄÚµå,char,"[C,E,L,R]"
-l1cdp_caresol_cntc_m,cntc_kd_nm,°è¾àÀ¯Çü¸í,char,"[°¡Àü±¸µ¶,ÀÌº¥Æ®,ÀÏ½ÃºÒ,ÄÉ¾î½Ê]"
-l1cdp_caresol_cntc_m,cntc_dtl_kd_cd,°è¾à»ó¼¼À¯ÇüÄÚµå,char,"[C00,C01,C05,C06,C09,C21,E,E00,H01,L00,R00,R03,R05]"
-l1cdp_caresol_cntc_m,cntc_dtl_kd_nm,°è¾à»ó¼¼À¯Çü¸í,char,"[3³â Àç°è¾à,5³â Àç°è¾à,¸¸±â Àç°è¾à,¸¸±âÀüÈ¯,¹«»ó¸¸±âÀüÈ¯,º¸À¯Á¦Ç° ÄÉ¾î½Ê,º¸À¯Á¦Ç°(¿Ï³³Çü),½Å±Ô,ÀÌº¥Æ®,ÀÏ¹İÆÇ¸Å¹«»ó,ÀÏ¹İÆÇ¸ÅÀ¯»ó,ÀÏ½ÃºÒ,È¨ÄÉ¾î_°¡Àü]"
-l1cdp_caresol_cntc_m,mdl_cd,¸ğµ¨ÄÚµå,,
-l1cdp_caresol_cntc_m,majr_prdc_cd,ÁÖ¿äÁ¦Ç°ÄÚµå,char,"[XPC02,XPC05,XPC08,XPC11,XPC13,XPC16,XPC17,XPC18,XPC20,XPC28,XPC29,XPC32,XPC34,XPC35,XPC40]"
-l1cdp_caresol_cntc_m,majr_prdc_nm,ÁÖ¿äÁ¦Ç°¸í,,
-l1cdp_caresol_cntc_m,rntl_pdfm_cd,·»Å»Á¦Ç°±ºÄÚµå,,
-l1cdp_caresol_cntc_m,rntl_pdfm_nm,·»Å»Á¦Ç°±º¸í,,
-l1cdp_caresol_cntc_m,ordr_kd_cd,ÁÖ¹®À¯ÇüÄÚµå,char,"[AC,AD,CA,CR,CW,DW,EO,ER,GC,GJ,HA,HB,HR,HV,HW,PC,RA,RC,RE,SC,SN,SS,ST,TV,VC,VR,WF,WT]"
-l1cdp_caresol_cntc_m,ordr_kd_nm,ÁÖ¹®À¯Çü¸í,char,"[RAC¿¡¾îÄÁ,TV,°ÇÁ¶±â,°ø±âÃ»Á¤±â,±¤ÆÄ¿Àºì,³ÃÀå°í,³ëÆ®ºÏ,·Îº¿Ã»¼Ò±â,»çÀÌ´ÏÁö,»ó¾÷¿ë½ºÅÄµå¿¡¾îÄÁ,¼¼Å¹±â,½´ÄÉ¾î,½ºÅ¸ÀÏ·¯,½Ä±â¼¼Ã´±â,½Ä¹°Àç¹è±â,¾È¸¶ÀÇÀÚ,¿ö½ÃÅ¸¿ö,Àü±â·¹ÀÎÁö,Á¤¼ö±â,Á¤¼ö±â³ÃÀå°í,Á¦½À±â,ÁÖ°Å¿ëÈ¯±â,Ã»¼Ò±â,Æ¢±è·Îº¿,È¨ºê·ç,È¨ÄÉ¾î_³ÃÀå°í,È¨ÄÉ¾î_¼¼Å¹±â,È¨ÄÉ¾î_¿¡¾îÄÁ]"
-l1cdp_caresol_cntc_m,hma_promt_lnkg_yn,°¡ÀüÁ¦Ç°ÆÇÃË¿¬°è¿©ºÎ,yn,yn
-l1cdp_caresol_cntc_m,vsit_cycl_mmct,¹æ¹®ÁÖ±â°³¿ù¼ö,int,"[0,37]"
-l1cdp_caresol_cntc_m,duty_use_term_mmct,ÀÇ¹«»ç¿ë±â°£°³¿ù¼ö,int,"[0,240]"
-l1cdp_caresol_cntc_m,cntc_term_mmct,°è¾à±â°£°³¿ù¼ö,int,"[1,960]"
-l1cdp_caresol_cntc_m,paym_cycl_nm,³³ºÎÁÖ±â¸í,char,"[¿ùºĞ³³,ÀÏ½ÃºÒ]"
-l1cdp_caresol_cntc_m,paym_mthd_cd,³³ºÎ¹æ¹ıÄÚµå,char,"[B,C,T]"
-l1cdp_caresol_cntc_m,paym_mthd_nm,³³ºÎ¹æ¹ı¸í,char,"[¹«ÅëÀåÀÔ±İ,ÀºÇàÀÌÃ¼,Ä«µåÀÌÃ¼]"
-l1cdp_caresol_cntc_m,totl_rntlct_amt,ÃÑ·»Å»·á±İ¾×,int,"[0,50400000]"
-l1cdp_caresol_cntc_m,totl_paym_amt,ÃÑ³³ºÎ±İ¾×,int,"[0,4260000]"
-l1cdp_caresol_cntc_m,src_cust_indi_yn,¿øÃµ°í°´°³ÀÎ»ç¾÷ÀÚ¿©ºÎ,yn,yn
-l1cdp_caresol_cntc_m,maj3_issu_yn,3´ëÀÌ½´¿©ºÎ,yn,yn
-l1cdp_caresol_cntc_m,bfr_cntc_stts_cd,ÀÌÀü°è¾à»óÅÂÄÚµå,char,"[C,E,M,S,T,W]"
-l1cdp_caresol_cntc_m,bfr_cntc_stts_nm,ÀÌÀü°è¾à»óÅÂ¸í,char,"[°èÁ¤Á¤Áö,¸¸±â¿Ï·á,¸¸±âÁ¢¼ö,Á¤»ó,ÇØÁö¿Ï·á,ÇØÁöÁ¢¼ö]"
-l1cdp_caresol_cntc_m,lgtm_non_vsit_yn,Àå±â¹Ì¹æ¹®¿©ºÎ,yn,yn
-l1cdp_caresol_cntc_m,acdt_bond_yn,»ç°íÃ¤±Ç¿©ºÎ,yn,yn
-l1cdp_caresol_cntc_m,orig_cntc_lin_no_desc,¿ø°è¾à¶óÀÎ¹øÈ£¼³¸í,,
+l1cdp_caresol_cntc_m,cntc_lin_no,ê³„ì•½ë¼ì¸ë²ˆí˜¸,,
+l1cdp_caresol_cntc_m,src_chnl_cd,ì›ì²œì±„ë„ì½”ë“œ,char,[CSC]
+l1cdp_caresol_cntc_m,src_chnl_nm,ì›ì²œì±„ë„ëª…,char,[CSMS (ê³„ì•½)ê³ ê°]
+l1cdp_caresol_cntc_m,cntc_strt_dt,ê³„ì•½ì‹œì‘ì¼ì,date,date
+l1cdp_caresol_cntc_m,cntc_end_dt,ê³„ì•½ì¢…ë£Œì¼ì,date,date
+l1cdp_caresol_cntc_m,cntc_stts_cd,ê³„ì•½ìƒíƒœì½”ë“œ,char,"[C,D,E,M,S,T,W]"
+l1cdp_caresol_cntc_m,cntc_stts_nm,ê³„ì•½ìƒíƒœëª…,char,"[ê³„ì •ì •ì§€,ë§Œê¸°ì™„ë£Œ,ë§Œê¸°ì ‘ìˆ˜,ë³´ë¥˜,ì •ìƒ,í•´ì§€ì™„ë£Œ,í•´ì§€ì ‘ìˆ˜]"
+l1cdp_caresol_cntc_m,cntc_stts_chg_dt,ê³„ì•½ìƒíƒœë³€ê²½ì¼ì,date,date
+l1cdp_caresol_cntc_m,expy_yn,í•´ì§€ì—¬ë¶€,yn,yn
+l1cdp_caresol_cntc_m,expy_dt,í•´ì§€ì¼ì,date,date
+l1cdp_caresol_cntc_m,cntc_stop_dt,ê³„ì•½ì •ì§€ì¼ì,date,date
+l1cdp_caresol_cntc_m,cntc_stop_term_acum_days,ê³„ì•½ì •ì§€ê¸°ê°„ëˆ„ì ì¼ìˆ˜,int,"[-1127,4293]"
+l1cdp_caresol_cntc_m,cntc_stop_term_acum_mmct,ê³„ì•½ì •ì§€ê¸°ê°„ëˆ„ì ê°œì›”ìˆ˜,int,"[-37,141]"
+l1cdp_caresol_cntc_m,rntl_sale_chnl_cd,ë ŒíƒˆíŒë§¤ì±„ë„ì½”ë“œ,char,"[1,10,11,12,13,14,16,17,18,19,2,20,3,4,5,6,7,8,9,99]"
+l1cdp_caresol_cntc_m,rntl_sale_chnl_nm,ë ŒíƒˆíŒë§¤ì±„ë„ëª…,char,"[B2B,OBS(B2B),OBS(LGì „ìì„ì§ì›),OBS(ê³„ì—´ì‚¬ì„ì§ì›),OBS(ëŒ€í‘œì‚¬ì´íŠ¸),ê¸°íƒ€,ì˜¨ë¼ì¸ê°€ì „,ì˜¨ë¼ì¸ì¼€ì–´ì†”ë£¨ì…˜ì „ë¬¸ì ,ì´ë§ˆíŠ¸,ìì‚¬ë³µì§€ëª°,ì „ëµìœ í†µ,ì „ë¬¸ì (J),ì „ìëœë“œ,ì½”ìŠ¤íŠ¸ì½”,í•˜ì´ë§ˆíŠ¸,í•˜ì´ì¼€ì–´ì†”ë£¨ì…˜(B2B),í•˜ì´ì¼€ì–´ì†”ë£¨ì…˜(B2C),í•˜ì´í”„ë¼ì(H),í™ˆì‡¼í•‘,í™ˆí”ŒëŸ¬ìŠ¤]"
+l1cdp_caresol_cntc_m,lge_shipto_cd,LGì „ìSHIP-TOì½”ë“œ,,
+l1cdp_caresol_cntc_m,lge_shipto_nm,LGì „ìSHIP-TOëª…,,
+l1cdp_caresol_cntc_m,cntc_kd_cd,ê³„ì•½ìœ í˜•ì½”ë“œ,char,"[C,E,L,R]"
+l1cdp_caresol_cntc_m,cntc_kd_nm,ê³„ì•½ìœ í˜•ëª…,char,"[ê°€ì „êµ¬ë…,ì´ë²¤íŠ¸,ì¼ì‹œë¶ˆ,ì¼€ì–´ì‹­]"
+l1cdp_caresol_cntc_m,cntc_dtl_kd_cd,ê³„ì•½ìƒì„¸ìœ í˜•ì½”ë“œ,char,"[C00,C01,C05,C06,C09,C21,E,E00,H01,L00,R00,R03,R05]"
+l1cdp_caresol_cntc_m,cntc_dtl_kd_nm,ê³„ì•½ìƒì„¸ìœ í˜•ëª…,char,"[3ë…„ ì¬ê³„ì•½,5ë…„ ì¬ê³„ì•½,ë§Œê¸° ì¬ê³„ì•½,ë§Œê¸°ì „í™˜,ë¬´ìƒë§Œê¸°ì „í™˜,ë³´ìœ ì œí’ˆ ì¼€ì–´ì‹­,ë³´ìœ ì œí’ˆ(ì™„ë‚©í˜•),ì‹ ê·œ,ì´ë²¤íŠ¸,ì¼ë°˜íŒë§¤ë¬´ìƒ,ì¼ë°˜íŒë§¤ìœ ìƒ,ì¼ì‹œë¶ˆ,í™ˆì¼€ì–´_ê°€ì „]"
+l1cdp_caresol_cntc_m,mdl_cd,ëª¨ë¸ì½”ë“œ,,
+l1cdp_caresol_cntc_m,majr_prdc_cd,ì£¼ìš”ì œí’ˆì½”ë“œ,char,"[XPC02,XPC05,XPC08,XPC11,XPC13,XPC16,XPC17,XPC18,XPC20,XPC28,XPC29,XPC32,XPC34,XPC35,XPC40]"
+l1cdp_caresol_cntc_m,majr_prdc_nm,ì£¼ìš”ì œí’ˆëª…,,
+l1cdp_caresol_cntc_m,rntl_pdfm_cd,ë Œíƒˆì œí’ˆêµ°ì½”ë“œ,,
+l1cdp_caresol_cntc_m,rntl_pdfm_nm,ë Œíƒˆì œí’ˆêµ°ëª…,,
+l1cdp_caresol_cntc_m,ordr_kd_cd,ì£¼ë¬¸ìœ í˜•ì½”ë“œ,char,"[AC,AD,CA,CR,CW,DW,EO,ER,GC,GJ,HA,HB,HR,HV,HW,PC,RA,RC,RE,SC,SN,SS,ST,TV,VC,VR,WF,WT]"
+l1cdp_caresol_cntc_m,ordr_kd_nm,ì£¼ë¬¸ìœ í˜•ëª…,char,"[RACì—ì–´ì»¨,TV,ê±´ì¡°ê¸°,ê³µê¸°ì²­ì •ê¸°,ê´‘íŒŒì˜¤ë¸,ëƒ‰ì¥ê³ ,ë…¸íŠ¸ë¶,ë¡œë´‡ì²­ì†Œê¸°,ì‚¬ì´ë‹ˆì§€,ìƒì—…ìš©ìŠ¤íƒ ë“œì—ì–´ì»¨,ì„¸íƒê¸°,ìŠˆì¼€ì–´,ìŠ¤íƒ€ì¼ëŸ¬,ì‹ê¸°ì„¸ì²™ê¸°,ì‹ë¬¼ì¬ë°°ê¸°,ì•ˆë§ˆì˜ì,ì›Œì‹œíƒ€ì›Œ,ì „ê¸°ë ˆì¸ì§€,ì •ìˆ˜ê¸°,ì •ìˆ˜ê¸°ëƒ‰ì¥ê³ ,ì œìŠµê¸°,ì£¼ê±°ìš©í™˜ê¸°,ì²­ì†Œê¸°,íŠ€ê¹€ë¡œë´‡,í™ˆë¸Œë£¨,í™ˆì¼€ì–´_ëƒ‰ì¥ê³ ,í™ˆì¼€ì–´_ì„¸íƒê¸°,í™ˆì¼€ì–´_ì—ì–´ì»¨]"
+l1cdp_caresol_cntc_m,hma_promt_lnkg_yn,ê°€ì „ì œí’ˆíŒì´‰ì—°ê³„ì—¬ë¶€,yn,yn
+l1cdp_caresol_cntc_m,vsit_cycl_mmct,ë°©ë¬¸ì£¼ê¸°ê°œì›”ìˆ˜,int,"[0,37]"
+l1cdp_caresol_cntc_m,duty_use_term_mmct,ì˜ë¬´ì‚¬ìš©ê¸°ê°„ê°œì›”ìˆ˜,int,"[0,240]"
+l1cdp_caresol_cntc_m,cntc_term_mmct,ê³„ì•½ê¸°ê°„ê°œì›”ìˆ˜,int,"[1,960]"
+l1cdp_caresol_cntc_m,paym_cycl_nm,ë‚©ë¶€ì£¼ê¸°ëª…,char,"[ì›”ë¶„ë‚©,ì¼ì‹œë¶ˆ]"
+l1cdp_caresol_cntc_m,paym_mthd_cd,ë‚©ë¶€ë°©ë²•ì½”ë“œ,char,"[B,C,T]"
+l1cdp_caresol_cntc_m,paym_mthd_nm,ë‚©ë¶€ë°©ë²•ëª…,char,"[ë¬´í†µì¥ì…ê¸ˆ,ì€í–‰ì´ì²´,ì¹´ë“œì´ì²´]"
+l1cdp_caresol_cntc_m,totl_rntlct_amt,ì´ë Œíƒˆë£Œê¸ˆì•¡,int,"[0,50400000]"
+l1cdp_caresol_cntc_m,totl_paym_amt,ì´ë‚©ë¶€ê¸ˆì•¡,int,"[0,4260000]"
+l1cdp_caresol_cntc_m,src_cust_indi_yn,ì›ì²œê³ ê°ê°œì¸ì‚¬ì—…ìì—¬ë¶€,yn,yn
+l1cdp_caresol_cntc_m,maj3_issu_yn,3ëŒ€ì´ìŠˆì—¬ë¶€,yn,yn
+l1cdp_caresol_cntc_m,bfr_cntc_stts_cd,ì´ì „ê³„ì•½ìƒíƒœì½”ë“œ,char,"[C,E,M,S,T,W]"
+l1cdp_caresol_cntc_m,bfr_cntc_stts_nm,ì´ì „ê³„ì•½ìƒíƒœëª…,char,"[ê³„ì •ì •ì§€,ë§Œê¸°ì™„ë£Œ,ë§Œê¸°ì ‘ìˆ˜,ì •ìƒ,í•´ì§€ì™„ë£Œ,í•´ì§€ì ‘ìˆ˜]"
+l1cdp_caresol_cntc_m,lgtm_non_vsit_yn,ì¥ê¸°ë¯¸ë°©ë¬¸ì—¬ë¶€,yn,yn
+l1cdp_caresol_cntc_m,acdt_bond_yn,ì‚¬ê³ ì±„ê¶Œì—¬ë¶€,yn,yn
+l1cdp_caresol_cntc_m,orig_cntc_lin_no_desc,ì›ê³„ì•½ë¼ì¸ë²ˆí˜¸ì„¤ëª…,,
